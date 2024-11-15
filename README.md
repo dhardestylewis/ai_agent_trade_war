@@ -390,10 +390,25 @@ Given the prompt and a context for the USA's Democratic Party, GPT-4 produces a 
 ### Disposition Matrix
 Decision_ID,Action,Scenario,Probability(%)
 1,Increase Tariffs,Recession,70
-2,Decrease Tariffs,Economic Boom,30
-3,Implement Subsidies,Recession,50
-4,Form Trade Alliances,Upcoming Elections,60
-5,Implement Climate Change Policies,Climate Change Policies,80
+2,Form Trade Alliances,Economic Boom,60
+3,Finalize Trade Agreements,Trade Deficit Increase,65
+4,Decrease Tariffs,Economic Boom,40
+5,Implement Subsidies,Recession,50
+6,Implement Climate Change Policies,Climate Change Policies,90
+7,Launch Election Campaign,Upcoming Elections,80
+8,Handle Political Scandal,Political Scandals,70
+9,Address Public Protests,Public Protests,60
+10,Enhance Disaster Response,Natural Disasters,75
+11,Promote Renewable Energy Initiatives,Climate Change Policies,85
+12,Stimulate Economic Growth,Inflation Surge,55
+13,Implement Social Welfare Programs,Shifts in Public Sentiment,65
+14,Appoint New Leaders,Leadership Changes,50
+15,Increase Defense Spending,Recession,45
+16,Decrease Defense Spending,Economic Boom,30
+17,Increase Taxes,Inflation Surge,60
+18,Reduce Subsidies,Inflation Surge,50
+19,Launch Public Awareness Campaigns,Public Protests,70
+20,Strengthen Security Measures,Natural Disasters,60
 ...
 ```
 
@@ -402,8 +417,34 @@ and
 ```
 ### Modifier Matrix
 Relation_Type,Relation_Name,Scenario,Modifier_Value
-Alliance,CAN,Economic Boom,0.10
-Industry,Technology,Climate Change Policies,-0.10
+Alliance,EU,Recession,0.05
+Alliance,EU,Economic Boom,0.10
+Alliance,EU,Trade Deficit Increase,-0.05
+Alliance,CAN,Recession,0.08
+Alliance,CAN,Economic Boom,0.12
+Alliance,CAN,Inflation Surge,-0.02
+Country,CHN,Trade Deficit Increase,-0.10
+Country,DEU,Climate Change Policies,0.15
+Country,FRA,Natural Disasters,0.10
+Country,JPN,Economic Boom,0.20
+Country,GBR,Upcoming Elections,-0.05
+Country,RUS,Trade Deficit Increase,-0.15
+Country,IND,Recession,0.12
+Industry,Automotive,Recession,0.10
+Industry,Technology,Economic Boom,0.20
+Industry,Energy,Inflation Surge,-0.05
+Industry,Healthcare,Climate Change Policies,0.10
+Industry,Finance,Trade Deficit Increase,-0.08
+Industry,Agriculture,Natural Disasters,0.12
+Company,General Motors,Recession,0.05
+Company,Toyota,Economic Boom,0.15
+Company,Volkswagen,Trade Deficit Increase,-0.05
+Company,Apple,Inflation Surge,0.10
+Company,Samsung,Economic Boom,0.15
+Company,Huawei,Trade Deficit Increase,-0.12
+Company,ExxonMobil,Climate Change Policies,-0.10
+Company,Shell,Recession,0.08
+Company,Johnson & Johnson,Public Protests,0.10
 ...
 ```
 
