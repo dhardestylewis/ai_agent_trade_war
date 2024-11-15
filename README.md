@@ -1,4 +1,4 @@
-# ai_agent_trade_wars
+# ai_agent_trade_war
 Simulation of Global Trade Dynamics using Agent-Based Modeling and GPT-4 Integration
 
 # Technical Whitepaper: A Simulation of Global Trade Dynamics using Agent-Based Modeling and GPT-4 Integration
